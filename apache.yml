@@ -1,7 +1,7 @@
 # Playbook apache.yml
 ---
 - name: Installing Apache service 
-  hosts: my_app_servers                                  # Define all the hosts
+  hosts: 100.80.5.202                                  # Define all the hosts
   remote_user: ubuntu                                    # Remote_user is ubuntu
   # Defining the Ansible task
   tasks:                                                 
